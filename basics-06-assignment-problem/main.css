@@ -1,0 +1,36 @@
+h1 {
+  color: crimson;
+  font-family: sans-serif;
+}
+
+.green {
+  color: green;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  font-family: inherit;
+}
+
+/* li + li {
+  background: black;
+  color: white;
+} */
+
+li:not(:first-child) {
+  background: black;
+  color: white;
+}
+
+ol li {
+  background: black;
+  color: white;
+}
