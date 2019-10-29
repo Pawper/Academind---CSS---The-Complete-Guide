@@ -1,6 +1,6 @@
-h1 {
-  color: crimson;
+#assignment-instructions {
   font-family: sans-serif;
+  color: crimson;
 }
 
 .green {
@@ -20,15 +20,15 @@ li {
   font-family: inherit;
 }
 
-/* li + li {
-  background: black;
-  color: white;
-} */
-
-li:not(:first-child) {
+li + li {
   background: black;
   color: white;
 }
+
+/* li:not(:first-child) {
+  background: black;
+  color: white;
+} */
 
 ol li {
   background: black;
