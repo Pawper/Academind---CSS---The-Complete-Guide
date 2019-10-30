@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+}
+
+.box {
+  padding: 5px 10px 15px 20px;
+  margin: 20px 15px 10px 5px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.box:nth-of-type(1) {
+  height: 300px;
+  width: 50%;
+  display: none;
+}
+
+div:last-of-type:hover {
+  background: yellow;
+}
