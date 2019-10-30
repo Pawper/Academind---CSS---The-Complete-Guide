@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+}
+
+.box {
+  padding: 5px 10px 15px 20px;
+  margin: 20px 15px 10px 5px;
+  border: 1px solid black;
+
+  box-sizing: border-box;
+  height: 300px;
+  width: 48%;
+  display: inline-block;
+  margin: 0;
+}
+
+.box:first-of-type {
+  /* height: 100%;
+  box-sizing: border-box;
+  height: 300px;
+  width: 50%; */
+  display: none;
+}
+
+div:last-of-type:hover {
+  background: yellow;
+}
