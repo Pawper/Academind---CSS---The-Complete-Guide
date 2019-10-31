@@ -160,11 +160,13 @@ body {
 }
 
 .button:hover,
-.button:active {
+.button:active,
+.button:focus {
   background: white;
   color: #0e4f1f;
-}
-
-.button:focus {
   outline: none;
 }
+
+/* .button:focus {
+  outline: none;
+} */
