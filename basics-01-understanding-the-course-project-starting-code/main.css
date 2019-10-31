@@ -122,7 +122,12 @@ body {
   border-radius: 4px;
 }
 
-.plan ul {
+.plan__features {
   list-style-type: none;
+  margin: 0;
   padding: 0;
+}
+
+.plan__feature {
+  margin: 8px 0;
 }
