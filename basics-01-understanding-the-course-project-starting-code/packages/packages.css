@@ -1,17 +1,32 @@
-.plan {
-  padding: 16px 0;
+main {
+  padding-top: 31px;
+}
+
+.package {
+  /* padding: 16px 0; */
   /* margin: 8px; */
   /* display: inline-block; */
   /* width: 30%; */
   /* vertical-align: middle; */
+  width: 80%;
+  margin: 16px 0;
+  border: 4px solid #0e4f1f;
+  border-left: none;
 }
 
-.plan__link {
+/* .plan__link {
   display: inline-block;
   width: 100%;
   border: 3px solid #0e4f1f;
   text-decoration: none;
   padding: 24px 16px;
+} */
+
+.package a {
+  text-decoration: none;
+  color: inerit;
+  display: block;
+  padding: 32px;
 }
 
 .plan__plus {
