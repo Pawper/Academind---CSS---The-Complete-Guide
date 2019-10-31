@@ -1,0 +1,46 @@
+.plan {
+  padding: 16px 0;
+  /* margin: 8px; */
+  /* display: inline-block; */
+  /* width: 30%; */
+  /* vertical-align: middle; */
+}
+
+.plan__link {
+  display: inline-block;
+  width: 100%;
+  border: 3px solid #0e4f1f;
+  text-decoration: none;
+  padding: 24px 16px;
+}
+
+.plan__plus {
+  background: #CFF7D8;
+}
+
+.plan__free {
+  background: #E8F8EC; 
+}
+
+.plan__premium {
+  background: #0e4f1f;
+}
+
+.plan__title {
+  color: black;
+}
+
+.plan--highlighted .plan__title {
+  color: white;
+}
+
+.plan__annotation {
+  color: #8b8b8b;
+}
+
+.plan__description {
+  border: 1px solid #0e4f1f;
+  padding: 8px;
+  color: #0e4f1f;
+  background: white;
+}
