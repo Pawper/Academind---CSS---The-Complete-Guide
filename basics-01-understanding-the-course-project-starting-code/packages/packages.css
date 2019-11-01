@@ -30,6 +30,7 @@ main {
   color: inherit;
   display: block;
   padding: 32px;
+  position: relative;
 }
 
 .package__badge {
