@@ -5,6 +5,8 @@ var modalNoButton = document.querySelector('.modal__action--negative');
 var toggleButton = document.querySelector('.toggle-button');
 var mobileNav = document.querySelector('.mobile-nav')
 
+// console.dir(backdrop.style['background-image']);
+
 // console.dir(backdrop);
 for (var i = 0; i < selectPlanButtons.length; i++) {
   selectPlanButtons[i].addEventListener('click', function() {
