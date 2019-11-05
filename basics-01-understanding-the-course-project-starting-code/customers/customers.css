@@ -1,3 +1,7 @@
+main {
+  padding-top: 2.5rem;
+}
+
 .testimonial {
   font-size: 1.2rem;
 }
@@ -12,10 +16,6 @@
   width: 100%;
   max-width: 40rem;
   vertical-align: top;
-}
-
-.testimonial:first-of-type {
-  margin-top: 6rem;
 }
 
 .testimonial__info {
