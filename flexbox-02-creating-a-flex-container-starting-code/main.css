@@ -18,10 +18,10 @@ body {
     background: white;
     padding: 10px;
     border: 5px solid black;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     /* flex-flow: row wrap; */
     align-items: center;
     justify-content: flex-start;
@@ -52,7 +52,6 @@ body {
     border: 5px solid black;
     margin: 10px;
     height: 250px;
-    align-self: flex-start;
 }
 
 .item-4 {
@@ -72,6 +71,7 @@ body {
     border: 5px solid black;
     margin: 10px;
     width: 350px;
+    flex: 0 1 auto;
 }
 
 .item-6 {
