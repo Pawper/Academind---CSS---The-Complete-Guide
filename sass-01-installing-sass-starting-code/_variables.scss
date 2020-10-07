@@ -1,0 +1,5 @@
+// $main-color: #521751;
+$colors: (main: #521751, secondary: #fa923f, light: #ccc, lightest: white);
+$size-tiny: .2rem;
+$size-default: 1rem;
+$border-default: $size-tiny / 4 solid map-get($colors, main);
